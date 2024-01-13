@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --HankenGrotesk: "Hanken Grotesk", sans-serif;
+  --NotoSans: "Noto Sans", sans-serif;
+}
+
+/* ============== Banner Part Css =============== */
+
+.banner {
+  padding: 10px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.bannerWraper {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bannerLeft__title {
+  color: #000;
+  font-family: var(--NotoSans);
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: -1.14px;
+  position: relative;
+}
+
+.bannerLeft__title::after {
+  position: absolute;
+  top: 37px;
+  left: 0;
+  content: "";
+  width: 400px;
+  height: 20px;
+  opacity: 0.2;
+  background: #7c14fd;
+}
+
+.bannerLeft__Span {
+  color: #7c14fd;
+  font-family: var(--NotoSans);
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.bannerLeft__detail {
+  padding-top: 25px;
+  padding-bottom: 13px;
+  color: #000;
+  font-family: var(--HankenGrotesk);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.bannerLeft__Logo {
+  padding-bottom: 60px;
+  column-gap: 17px;
+  display: flex;
+  align-items: center;
+}
+.saas__logo img {
+  width: 112px;
+  cursor: pointer;
+}
+
+.Market__logo {
+  width: 112px;
+  cursor: pointer;
+}
+
+.fiver__logo img {
+  width: 112px;
+  cursor: pointer;
+}
+
+.Contact__Btn {
+  background: transparent;
+  padding: 14px 34px;
+  color: #7c14fd;
+  border-radius: 20px;
+  border: 1px solid #7c14fd;
+  font-family: var(--HankenGrotesk);
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  padding-top: 12px;
+}
+
+.Contact__Btn:hover {
+  transform: translateY(-10%);
+  background: #7c14fd;
+  color: #fff;
+  box-shadow: 0px 26px 46px 0px rgba(124, 20, 253, 0.35);
+  -webkit-transform: translateY(-10%);
+  -moz-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  -o-transform: translateY(-10%);
+}
+
+.bannerRight {
+  width: 688px;
+}
+
+.bannerRight__bannerimg {
+  width: 934px;
+  margin-left: -196px;
+}
+
+.bannerWave {
+  position: absolute;
+  z-index: -1;
+}
+
+.bannerWave__img img {
+  margin-top: -551px;
+}

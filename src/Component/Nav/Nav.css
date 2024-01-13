@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+/* ============== Nav Part Css =============== */
+
+:root {
+  --HankenGrotesk: "Hanken Grotesk", sans-serif;
+  --NotoSans: "Noto Sans", sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+  font-family: var(--HankenGrotesk);
+}
+
+.Nav {
+  /* padding: 36px 0; */
+  background: #fff;
+  box-shadow: 0px 12px 22px 0px rgba(0, 0, 0, 0.05);
+}
+
+.NavWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo__img {
+  cursor: pointer;
+}
+
+.MenuList__item {
+  padding: 36px 20px;
+  cursor: pointer;
+  transition: all linear 0.1s;
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -ms-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+}
+
+.MenuList__item:hover {
+  background-color: #b8afaf41;
+  color: #7c14fd;
+}
+
+.MenuList__item:hover a {
+  color: #7c14fd;
+}
+
+.MenuList__item a {
+  color: #000;
+  font-family: var(--HankenGrotesk);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.MenuList__item a:hover {
+}
+
+.MenuList__ContactBtn__Wraper {
+  column-gap: 37px;
+  display: flex;
+  align-items: center;
+}
+
+.downArrow {
+  font-size: 16px;
+  margin-left: 5px;
+  padding-top: 7px;
+}
+.NavWrapper__contact__Btn {
+  background: transparent;
+  padding: 14px 28px;
+  color: #7c14fd;
+  font-family: var(--HankenGrotesk);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 1000px;
+  border: 1px solid #7c14fd;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  cursor: pointer;
+}
+
+.NavWrapper__contact__Btn:hover {
+  background-color: #7c14fd;
+  color: #fff;
+}
