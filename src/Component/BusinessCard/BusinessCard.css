@@ -10,8 +10,29 @@
   --NotoSans: "Noto Sans", sans-serif;
 }
 
+.BusinessCard {
+  background: #faf6ff;
+
+  padding: 80px 0;
+}
+
 .card {
-  background-color: #faf6ff;
+  width: 400px;
+  padding: 30px 20px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  background: #faf6ff;
+  box-shadow: 0px 86px 114px 0px rgba(124, 20, 253, 0.14);
+}
+
+.btn {
+  color: #fff;
+  font-family: var(--HankenGrotesk);
+  font-size: 19px;
+  font-weight: 700;
+  border-radius: 15px;
+  background: #b070ff;
+  padding: 12px 24px;
 }
 
 /**==========================================================================
