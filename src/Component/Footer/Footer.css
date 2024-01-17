@@ -1,0 +1,141 @@
+/* ===================================================================
+                             Footer Css start
+=====================================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --HankenGrotesk: "Hanken Grotesk", sans-serif;
+  --NotoSans: "Noto Sans", sans-serif;
+}
+
+.footer {
+  padding: 100px 0;
+  background: url(/src/assets/footer.png);
+}
+
+.footer__wraper {
+  padding-top: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__address {
+  color: #fff;
+  font-family: var(--HankenGrotesk);
+  font-size: 18px;
+  opacity: 0.8;
+  font-weight: 400;
+  line-height: 31.5px;
+  letter-spacing: 0.2px;
+  width: 207px;
+  padding-top: 40px;
+}
+
+.footer__media {
+  padding-top: 45px;
+}
+
+.footer__media a {
+  display: inline-block;
+  margin-right: 7px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  line-height: 45px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  cursor: pointer;
+}
+
+.footer__media a:hover {
+  transform: translateY(-7%);
+  color: #b070ff;
+  background-color: #fff;
+  -webkit-transform: translateY(-7%);
+  -moz-transform: translateY(-7%);
+  -ms-transform: translateY(-7%);
+  -o-transform: translateY(-7%);
+}
+
+.podcast__title {
+  color: #fff;
+  font-family: var(--HankenGrotesk);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.podcast__bg {
+  width: 390px;
+  height: 224px;
+
+  border-radius: 20px;
+  background: #9a48ff;
+  box-shadow: 0px 69px 114px 0px rgba(124, 20, 253, 0.08);
+}
+
+.footer__company {
+  display: block;
+}
+
+.footer__company a {
+  padding-bottom: 10px;
+  color: #fff;
+  font-family: var(--HankenGrotesk);
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  opacity: 0.8;
+}
+
+.footer__company a:hover {
+  opacity: 1;
+}
+
+.footer__Services {
+  display: block;
+}
+
+.footer__Services a {
+  padding-bottom: 10px;
+  color: #fff;
+  font-family: var(--HankenGrotesk);
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  opacity: 0.8;
+}
+
+.footer__Services a:hover {
+  opacity: 1;
+}
+
+.list__heading {
+  color: #fff;
+  font-family: var(--HankenGrotesk);
+  font-size: 22px;
+  font-weight: 700;
+
+  letter-spacing: 0.2px;
+  padding-bottom: 27px;
+}
+
+.footer__list {
+  column-gap: 60px;
+  display: flex;
+}
+/* ===================================================================
+                             Footer Css End
+=====================================================================*/
