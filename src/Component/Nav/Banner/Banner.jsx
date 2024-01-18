@@ -4,7 +4,7 @@ import logo1 from "../../../assets/sa.png";
 import logo2 from "../../../assets/Fiverr.png";
 import BannerImg from "../../../assets/Banner.png";
 import BannerWave from "../../../assets/Wave.png";
-import Button from "../../Commoncomponent/button";
+import Button from "../../Commoncomponent/Button";
 
 const Banner = () => {
   return (
@@ -85,7 +85,7 @@ const Banner = () => {
                 </picture>
               </div>
               <div className="bannerLeft__Btn">
-                <Button btnStyle="Contact__Btn" btnContent="Contact us" />
+                <Button btnStyle="Contact__Btn" children="Contact us" />
               </div>
             </div>
             <div className="bannerRight">

@@ -11,18 +11,74 @@
 }
 
 .BusinessCard {
-  background: #faf6ff;
+  background: #f4ecff;
 
   padding: 80px 0;
 }
 
 .card {
-  width: 400px;
-  padding: 30px 20px;
+  width: 296px;
+  padding-top: 64px;
+  padding-bottom: 40px;
+  padding-left: 29px;
+  padding-right: 30px;
   border-radius: 50px;
   border: 2px solid #fff;
   background: #faf6ff;
+  cursor: pointer;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3%);
   box-shadow: 0px 86px 114px 0px rgba(124, 20, 253, 0.14);
+  -webkit-transform: translateY(-3%);
+  -moz-transform: translateY(-3%);
+  -ms-transform: translateY(-3%);
+  -o-transform: translateY(-3%);
+}
+
+.card:hover .btn {
+  background-color: #9a48ff;
+  transform: translateX(10%);
+  -webkit-transform: translateX(10%);
+  -moz-transform: translateX(10%);
+  -ms-transform: translateX(10%);
+  -o-transform: translateX(10%);
+}
+
+.card:hover .Right__arrow {
+  transform: translateX(20%);
+  -webkit-transform: translateX(20%);
+  -moz-transform: translateX(20%);
+  -ms-transform: translateX(20%);
+  -o-transform: translateX(20%);
+}
+
+.card .card__title {
+  color: #000;
+  font-family: var(--NotoSans);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 37.6px;
+  padding-bottom: 25px;
+}
+
+.card .card__detail {
+  color: #000;
+  font-family: var(--HankenGrotesk);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-bottom: 58px;
 }
 
 .btn {
@@ -33,8 +89,98 @@
   border-radius: 15px;
   background: #b070ff;
   padding: 12px 24px;
+  cursor: pointer;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
 }
 
+.Right__arrow {
+  transition: all linear 0.2s;
+  padding-left: 5px;
+  vertical-align: middle;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.BusinessCard__wraper {
+  row-gap: 30px;
+  display: flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
+}
+
+.page {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.page__item {
+  display: flex;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  column-gap: 13px;
+}
+
+.page__item .page__Previous {
+  padding: 6px 0;
+  color: #000;
+  font-family: var(--NotoSans);
+  font-size: 22px;
+  font-weight: 700;
+  transition: all linear 0.1s;
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -ms-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+}
+
+.page__item .page__Previous:hover {
+  color: #9a48ff;
+}
+
+.page__item p {
+  color: #000;
+  font-family: var(--NotoSans);
+  font-size: 22px;
+  font-weight: 700;
+  padding: 6px 13px;
+  transition: all linear 0.1s;
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -ms-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+  cursor: pointer;
+}
+
+.page__item p:hover {
+  background-color: #b070ff;
+  color: #fff;
+}
+
+.page__item .page__next {
+  padding: 6px 0;
+  color: #000;
+  font-family: var(--NotoSans);
+  font-size: 22px;
+  font-weight: 700;
+  transition: all linear 0.1s;
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -ms-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+}
+
+.page__item .page__next:hover {
+  color: #b070ff;
+}
 /**==========================================================================
                                   Card Css End  
 **==========================================================================*/

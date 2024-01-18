@@ -1,0 +1,93 @@
+/* ==============================================================================
+                                 Strategy css start
+=================================================================================*/
+
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --HankenGrotesk: "Hanken Grotesk", sans-serif;
+  --NotoSans: "Noto Sans", sans-serif;
+}
+
+.strategy {
+  overflow: hidden;
+  background: #fff;
+  padding: 170px 0;
+  position: relative;
+}
+
+.strategy__overlay {
+  top: 0;
+  position: absolute;
+}
+
+.strategy__wraper {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.strategy__left {
+  position: relative;
+  text-align: center;
+}
+
+.strategy__title {
+  color: #000;
+  font-family: var(--NotoSans);
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.strategy__detail {
+  color: #32046b;
+  font-family: var(--HankenGrotesk);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0.2px;
+  width: 492px;
+}
+
+.strategy__btn {
+  color: #fff;
+  text-align: center;
+  font-family: var(--HankenGrotesk);
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 25px;
+  background: #7c14fd;
+  padding: 21px 21px;
+  margin-top: 80px;
+  cursor: pointer;
+  z-index: 1;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.strategy__btn:hover {
+  transform: translateY(5%);
+  box-shadow: 0px 26px 46px 0px rgba(124, 20, 253, 0.35);
+  background: #7000fa;
+  -webkit-transform: translateY(5%);
+  -moz-transform: translateY(5%);
+  -ms-transform: translateY(5%);
+  -o-transform: translateY(5%);
+}
+.strategy__right__arow {
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.strategy__img {
+  width: 600px;
+}
+
+/* ==============================================================================
+                                 Strategy css End
+=================================================================================*/
